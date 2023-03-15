@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Tip Calculator</string>
+    <string name="how_many_grams_do_you_need">How many grams do you need?</string>
 </resources>
