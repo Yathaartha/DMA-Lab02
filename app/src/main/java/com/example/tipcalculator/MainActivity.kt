@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var roundSwitch: Switch
     private lateinit var conversionResult: TextView
     private lateinit var weightToConvert: EditText
+    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -43,7 +44,7 @@ class MainActivity : AppCompatActivity() {
             if (roundSwitch.isChecked) {
                 result = result.toInt().toDouble()
             }
-            conversionResult.text = result.toString()
+            conversionResult.text = "Result: ${result.toString()}"
         }
     }
 }
