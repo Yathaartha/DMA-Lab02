@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">Tip Calculator</string>
-    <string name="how_many_grams_do_you_need">How many grams do you need?</string>
+    <string name="how_much_do_you_want_to_convert">How much do you want to convert?</string>
+    <string name="weight">Weight to convert</string>
+    <string name="grams_to_cups">Grams to Cups</string>
+    <string name="milliliters_to_ounces">Milliliters to Ounces</string>
+    <string name="ounces_to_milliliters">Ounces to milliliters</string>
+    <string name="cups_to_grams">Cups to Grams</string>
+    <string name="round_up">Round Up?</string>
+    <string name="convert">Convert</string>
+    <string name="result">Result</string>
 </resources>
